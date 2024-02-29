@@ -1,0 +1,27 @@
+[package]
+author = "Martina De Piccoli"
+name = "adv_prog_project"
+version = "0.1.0"
+edition = "2021"
+description = "Visualizer library of the advanced programming course project, year 2023/2024"
+
+[lib]
+name = "robotics_lib"
+path = "src/Robotic-Lib/src/lib.rs"
+
+
+[dependencies]
+tetra = "0.8.0"
+lazy_static = "1.4.0"
+rand = "0.8.5"
+strum = "0.25.0"
+strum_macros = "0.25.3"
+serde = { version = "1.0.193", features = ["derive"] }
+
+nalgebra = "0.32.3"
+noise = "0.8.2"
+image = "0.24.7"
+petgraph = "0.6.4"
+
+
+
